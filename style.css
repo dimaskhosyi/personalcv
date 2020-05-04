@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;700&display=swap');
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Baloo Paaji 2', arial;
+	text-align: justify;
+	background-color: #f7f7f7;
+}
+* {
+	box-sizing: border-box;
+}
+blockquote::before,
+blockquote::after {
+   content: '"';
+   font-size: 24px;
+   font-style: italic;
+   font-weight: bold;
+}
+blockquote{
+	font-style: italic;
+	font-weight: bold;
+}
+h2,
+h3,
+h4{
+	color: #f25764;
+	margin: 0;
+}
+p{
+}
+footer{
+	background-color: #ff9419;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+footer p{
+	margin: 5px;
+}
+header > .header{
+	font-size: 2em;
+	text-align: center;
+	padding: 10px;
+}
+h1{
+	margin: 20px;
+}
+.header p{
+	width: 85%;
+	margin: 0 auto;
+}
+.small{
+	font-size: 14px;
+}
+.card2{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+	border-radius: 5px;
+	padding: 20px;
+	width: 45%;
+	margin: 10px;
+}
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+}
+nav{
+	background: #ff9419;
+	padding: 5px;
+}
+nav a,
+footer a{
+	text-decoration: none;
+	color: white;
+}
+nav li{
+	display: inline;
+	margin-right: 40px;
+	margin-left: 40px;
+	line-height: 40px;
+}
+footer li{
+	display: inline;
+	margin: 10px;
+}
+footer ul{
+	padding: 0;
+	margin: 0 auto;
+	width: 50%;
+}
+footer a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+nav ul{
+	margin: 0;
+}
+main{
+	padding: 20px;
+	overflow: auto;
+}
+#content{
+	float: right;
+	width: 75%;
+}
+aside{
+	float: left;
+	width: 25%;
+	padding-right: 20px;
+}
+aside img{
+	width: 150px;
+}
+aside header{
+	text-align: center;
+}
+.double{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.card2 img{
+	width: 100%;
+	border-radius: 5px;
+}
+#content p{
+	text-indent: 20px;
+}
+nav a:hover{
+	font-weight: bold;
+	color: orange;
+	background-color: white;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+@media screen and (max-width: 1100px) {
+   #content, aside {
+   	width: 100%;
+    padding: 0;
+   }
+   .card2{
+   	width: 100%;
+   }
+   nav li{
+   	margin: 0 12px;
+   }
+}
